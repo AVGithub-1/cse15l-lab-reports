@@ -29,5 +29,6 @@ The output should look something like this, except with your course-specific acc
 
 4. Afterwards, you can try running some commands in the terminal like `cd`, `ls`, `cp`, `pwd`, and `mkdir`. For example, you could run `cd ~`, `ls -lat`, `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where abc is another group member's username. 
 For example, mine looks like this(Note: some commands throw `Permission Denied` or `No such file or directory`. This is supposed to happen):
+
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/trying_commands.JPG)
 
