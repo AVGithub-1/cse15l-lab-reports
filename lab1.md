@@ -15,7 +15,6 @@ This is what it looks like when I open VSCode. If you have it installed correctl
 If you have windows:
 You need to install git from here [Git](https://gitforwindows.org/) . Once you have git installed, you will use it to remotely connect. 
 Help with using git bash in VSCode can be found here [Git Bash in VSCode]([https://gitforwindows.org/](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994)
-
 Afterwards, open a new terminal in VSCode that uses git bash and run this command:
 `ssh cs15lsp23zz@ieng6.ucsd.edu`
 You will likely get a message like this:
@@ -25,7 +24,6 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
 Type "yes" and press enter, and then it will prompt you to enter your password. Enter your course-specific password.
-
 The output should look something like this, except with your course-specific account username instead of mine.
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/remote_connecting.JPG)
 
