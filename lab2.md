@@ -99,4 +99,7 @@ public class Server {
 
 This is one case where I used ```/add-message```:   <br>    
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab3pic1.JPG)  <br>   
-In the first image, we can 
+
+In this case, the main method in the StringServer class, the handleRequest method in the handler class, and the start method in the Server class are the methods called. The argument for the main method is the port number you input in the terminal when you run the StringServer class; in this case, it is 4000. The argument for the start method is the port number you inputted into the terminal when running the StringServer class as well as a new instance of the Handler method. The argument for the handle request method is the url you use for the website. When this is run, the port field in the StringServer class is intitalized to 4000, and the message field in the Handler clas is changed from ```"ddd\ndddd"``` to ```"ddd\ndddd\nHow is it going"```
+
+
