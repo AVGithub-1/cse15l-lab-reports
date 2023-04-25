@@ -100,6 +100,43 @@ public class Server {
 This is one case where I used ```/add-message```:   <br>    
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab3pic1.JPG)  <br>   
 
-In this case, the main method in the StringServer class, the handleRequest method in the handler class, and the start method in the Server class are the methods called. The argument for the main method is the port number you input in the terminal when you run the StringServer class; in this case, it is 4000. The argument for the start method is the port number you inputted into the terminal when running the StringServer class as well as a new instance of the Handler method. The argument for the handle request method is the url you use for the website. When this is run, the port field in the StringServer class is intitalized to 4000, and the message field in the Handler clas is changed from ```"ddd\ndddd"``` to ```"ddd\ndddd\nHow is it going"```
+In this case, the main method in the StringServer class, the handleRequest method in the handler class, and the start method in the Server class are the methods called. The argument for the main method is the port number you input in the terminal when you run the StringServer class; in this case, it is 4000. The argument for the start method is the port number inputted into the terminal when running the StringServer class, 4000, as well as a new instance of the Handler method. The argument for the handle request method is the url you use for the website. When this is run, the port field in the StringServer class is intitalized to 4000, and the message field in the Handler class is changed from ```"ddd\ndddd"``` to ```"ddd\ndddd\nHow is it going"```
+
+This is another case where I used ```/add-message```:   <br>    
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab3pic2.JPG)  <br>   
+
+In this case, the main method in the StringServer class, the handleRequest method in the handler class, and the start method in the Server class are the methods called. The argument for the main method is the port number you input in the terminal when you run the StringServer class; in this case, it is 4000. The argument for the start method is the port number inputted into the terminal when running the StringServer class, 4000, as well as a new instance of the Handler method. The argument for the handle request method is the url you use for the website. When this is run, the port field in the StringServer class is intitalized to 4000, and the message field in the Handler class is changed from ```"ddd\ndddd\nHow is it going"``` to ```"ddd\ndddd\nHow is it going\nHellooo"```. 
+
+
+
+Part 2:
+
+testReverseInPlace:
+* Failure inducing input = new int[] {1, 2, 3, 4}
+* non-failure inducing input = new int[] {4, 3, 3, 4}    
+
+In this screenshot, testReversedInPlace2 has the failure inducing input and testReversedInPlace3 has the non-failure inducing input
+
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab2pic3.JPG)
+
+The symptom of the failure-inducing input test is that index 2 was actually 3 when expected to be 2. This is the two tests' outputs when run in the terminal
+
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab2pic4.JPG)
+
+The bug was that the first half of list gets correctly reversed but when moving to second half of indices they attempted to take values from already updated positions which effectively left the second half identical to the first
+
+the fix can be seen here:
+
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab2pic5.JPG)
+
+In this fix, a new empty array, copyArray is created first and the input array elements are copied to that array. Then, the input array is changed to be reversed by referencing the indices of copyArray so that values from the already updated input array aren't used.
+
+
+Part 3:
+
+Something I learned in lab2 that I didn't know before was how websites and queries for websites worked. The different parts of a website and starting a server was completely new to me and it gave me more of an understanding of how websites can change to different webpages and do different things like display new text. 
+
+
+
 
 
