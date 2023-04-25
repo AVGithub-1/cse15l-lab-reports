@@ -97,4 +97,6 @@ public class Server {
 }
 ```
 
-
+This is one case where I used ```/add-message```:
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab3pic1.JPG)
+In the first image, we can 
