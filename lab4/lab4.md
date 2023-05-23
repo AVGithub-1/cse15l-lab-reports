@@ -4,3 +4,25 @@
 
 I logged into my ieng6 account with this command: `ssh cs15lsp23fg@ieng6.ucsd.edu`
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic1.JPG)
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic2.JPG)
+
+## Step 5:
+
+I then cloned my fork of the lab7 repository with this command: `git clone git@github.com:AVGithub-1/lab7.git`.
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic3.JPG)
+
+## Step 6:
+
+I ran the tests using `bash test.sh`, which ran the commands that compiles all the java files and runs the tests in ListExamplesTests. This showed that one test failed.
+
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic4.JPG)
+
+## Step 7: 
+
+To start editing, I entered the file using `vim ListExamplesTests.java` and it showed this:
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic5.JPG)
+
+To edit, I pressed <up><up><up><h><h><h><h> to get my cursor right next to the 1 in index1, then <i> to enter insert mode. I then pressed <backspace> to delete the 1 and <2> to put a 2. Then I pressed <esc> and <:><w><q><Enter> to save and exit the file. It looked like this at the end:
+  
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic6.JPG)
+ 
