@@ -22,7 +22,7 @@ I ran the tests using `bash test.sh`, which ran the commands that compiles all t
 To start editing, I entered the file using `vim ListExamplesTests.java` and it showed this:
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic5.JPG)
 
-To edit, I pressed <up><up><up><h><h><h><h> to get my cursor right next to the 1 in index1, then <i> to enter insert mode. I then pressed <backspace> to delete the 1 and <2> to put a 2. Then I pressed <esc> and <:><w><q><Enter> to save and exit the file. It looked like this at the end:
+To edit, I pressed <up><up><up><h><h><h><h> to get my cursor right next to the 1 in index1, then <i> to enter insert mode. I then pressed <backspace> to delete the 1 and <2> to put a 2. Then I pressed <\esc> and <:><w><q><Enter> to save and exit the file. It looked like this at the end:
   
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic6.JPG)
  
