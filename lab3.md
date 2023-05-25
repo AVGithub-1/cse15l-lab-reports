@@ -3,49 +3,76 @@
 
 The source I used: [Link](https://www.hostinger.com/tutorials/how-to-use-find-and-locate-commands-in-linux/)
 
-## Find ~ Command
-you can use find ~ to search for files in your home directory
+## Find -size Command
+you can use find -size to search for files in your home directory that are of a certain size. You can add + to the size argument to specify files that are greater than or equal to that size; adding - would specify files that are less than or equal to that size.
 
 for example, if you use this command:
 
 ```
-find ~ -name pmed.0020274.txt
+find . -size +200k
 ```
-then you will get this output (with your specific ieng6 account instead of mine).
+then it will search for all files in technical that are 200 kb or more, and you will get this output (with your specific ieng6 account instead of mine).
 ```
-/home/linux/ieng6/cs15lsp23/cs15lsp23fg/stringsearch-data/technical/plos/pmed.0020274.txt
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-3.txt
+./government/About_LSC/commission_report.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+./government/Gen_Account_Office/d01591sp.txt
 ```
 
 Here is another example:
 
 ```
-find ~ -name biomed
+find . -size -2k
 ```
-and this output 
+This command will search for all files in technical that are 2 kb or less, and it will give this output:
 ```
-/home/linux/ieng6/cs15lsp23/cs15lsp23fg/stringsearch-data/technical/biomed
+./plos/pmed.0020191.txt
+./plos/pmed.0020226.txt
 ```
 
 
-## Find . Command:
+## Find -atime Command:
 
-The find . command searches for files and directories in your current, working directory.
+The find -atime command searches for files that were accessed a specified number of days ago. You can add + to the days argument to specify files that were accessed that many days or more; adding - would specify files that were accessed that many days or less.
 
 for example, the command:
 ```
-find . -name biomed
+find . -atime -1
 ```
-produces the output
+will find all the files in technical that I accessed less than a day ago, and produces this output:
 ```
-./stringsearch-data/technical/biomed
+./biomed/1471-2369-3-10.txt
+./biomed/1471-2369-3-6.txt
+./biomed/1471-2369-3-9.txt
+./biomed/1471-2369-4-1.txt
+./biomed/1471-2369-4-5.txt
 ```
-because the biomed directory is in the current directory. However, say we enter the biomed directory and then try to 
-find the plos directory with this command:
+Another example is this command, which will search for files in technical that I accessed more than a day ago. 
 ```
-find . -name plos
+find . -atime +1
 ```
-then it doesn't return anything because the plos directory is not in the biomed directory, our current directory.
-
+It will give this output:
+```
+./plos/journal.pbio.0030050.txt
+./plos/journal.pbio.0030051.txt
+./plos/journal.pbio.0030056.txt
+./plos/journal.pbio.0030062.txt
+./plos/journal.pbio.0030065.txt
+./plos/journal.pbio.0030076.txt
+./plos/journal.pbio.0030094.txt
+./plos/journal.pbio.0030097.txt
+./plos/journal.pbio.0030102.txt
+./plos/journal.pbio.0030105.txt
+./plos/journal.pbio.0030127.txt
+./plos/journal.pbio.0030129.txt
+./plos/journal.pbio.0030131.txt
+./plos/journal.pbio.0030136.txt
+./plos/journal.pbio.0030137.txt
+```
 
 ## Find -not Command
 
@@ -72,10 +99,20 @@ Notice that they are all not .txt files.
 
 Another example:
 ```
-find. -not -name "*pmed*"
+find . -not -name "*pmed*"
 ```
 gives you all the files in the technical direcotry except for files with "pmed" in their name (its too long of a list to show
-here).
+here completely, here is a small part of the output).
+```
+./biomed/1471-2180-2-22.txt
+./biomed/1471-2180-2-26.txt
+./biomed/1471-2180-2-29.txt
+./biomed/1471-2180-2-32.txt
+./biomed/1471-2180-2-35.txt
+./biomed/1471-2180-2-38.txt
+./biomed/1471-2180-2-7.txt
+./biomed/1471-2180-3-10.txt
+```
 
 ## Find -type Command
 
@@ -84,7 +121,37 @@ For example, this command searches for all the directories within your working d
 ```
 find -type d
 ```
+It will return this output:
+```
+.
+./911report
+./biomed
+./government
+./government/About_LSC
+./government/Alcohol_Problems
+./government/Env_Prot_Agen
+./government/Gen_Account_Office
+./government/Media
+./government/Post_Rate_Comm
+./plos
+```
 And this command searches for all the normal files in your working directory.
 ```
 find -type f
+```
+It will return this output(note: this is just a small part of the output, the full output is too long. The full output has all of the normal files in the technical directory and its subdirectories).
+```
+./biomed/1471-2350-2-2.txt
+./biomed/1471-2350-2-8.txt
+./biomed/1471-2350-3-1.txt
+./biomed/1471-2350-3-12.txt
+./biomed/1471-2350-3-7.txt
+./biomed/1471-2350-3-9.txt
+./biomed/1471-2350-4-2.txt
+./biomed/1471-2350-4-3.txt
+./biomed/1471-2350-4-4.txt
+./biomed/1471-2350-4-6.txt
+./biomed/1471-2369-3-1.txt
+./biomed/1471-2369-3-10.txt
+./biomed/1471-2369-3-6.txt
 ```
