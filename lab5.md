@@ -126,7 +126,7 @@ in line 9 of Scenario.java, in the brackets of new int[factor], replace "factor"
 
 
 
-#Part 2:
+# Part 2:
 
 In the second half of the quarter, I learned how bash scripts work and how useful they can be when testing and developing 
 programs. I thought it was really helpful because now that I know how to use them, I don't have to keep typing out several
