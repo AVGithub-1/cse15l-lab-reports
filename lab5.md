@@ -26,7 +26,7 @@ command-line argument as the input value. The multiplier method is supposed to r
 input parameter) multiplied by factor(it's second input parameter). Then, after the mutiplier method is run, the array it returns should be 
 be printed out.
 
-This is the code for Scenario.java:
+This is the code for Scenario.java:<br>
 
 ![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2_1.JPG)
 
