@@ -49,7 +49,7 @@ Here is my edited code:
 
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic4.JPG)
 
-and here is my new output:
+and here is my new output: <br>
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic5.JPG)
 
 The bug I had was that in line 11 of Scenario.java, in the multiplier method of the Scenario class, I created the object returnArray
@@ -114,6 +114,18 @@ command-line commands I ran to trigger the bug(in order):
 '''
 javac Scenario.java
 '''
+
 '''
 java Scenario.java 5 2
 '''
+
+What to edit:
+in line 9 of Scenario.java, in the brackets of new int[factor], replace "factor" with "n".
+
+
+
+#Part 2:
+
+In the second half of the quarter, I learned how bash scripts work and how useful they can be when testing and developing 
+programs. I thought it was really helpful because now that I know how to use them, I don't have to keep typing out several
+commands in my terminal and instead can just put them all in a bash script and just run that script!.
