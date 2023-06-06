@@ -21,10 +21,7 @@ It is meant to run the command
 to compile Scenario.java, then run Scenario.java with the command line arguments 5 and 2
 if successfully compiled.
 
-My java program, Scenario.java, is meant to take in a number as a command line argument and run a method called multiplier with the 
-command-line argument as the input value. The multiplier method is supposed to return an array with all values from 1 to n (its first
-input parameter) multiplied by factor(it's second input parameter). Then, after the mutiplier method is run, the array it returns should be 
-be printed out.
+My java program, Scenario.java, is meant to take in a number as a command line argument and run a method called multiplier with the command-line argument as the input value. The multiplier method is supposed to return an array with all values from 1 to n (its first input parameter) multiplied by factor(it's second input parameter). Then, after the mutiplier method is run, the array it returns should be printed out.
 
 This is the code for Scenario.java:
 
