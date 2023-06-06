@@ -14,7 +14,7 @@ When I run my runner.sh script, which is supposed to compile and run my java pro
 
 This is my bash script, runner.sh:
 
-![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic1.jpg)
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic1_1.JPG)
 
 It is meant to run the command 
 ```javac Scenario.java``` 
@@ -26,7 +26,7 @@ command-line argument as the input value. The multiplier method is supposed to r
 input parameter) multiplied by factor(it's second input parameter). Then, after the mutiplier method is run, the array it returns should be 
 be printed out.
 
-This is the code for Scenario.java:<br>
+This is the code for Scenario.java:
 
 ![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2_1.JPG)
 
