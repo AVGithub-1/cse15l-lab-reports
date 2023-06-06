@@ -2,7 +2,7 @@
 
 ## Original Post
 
-**What environment are you using(commputer, operating system, web browser, terminal/editor, and so on)?**
+**What environment are you using(computer, operating system, web browser, terminal/editor, and so on)?**
 
 I am using VSCode and running my files in a bash terminal on my local machine.
 
@@ -16,7 +16,9 @@ This is my bash script, runner.sh:
 
 ![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2.JPG)
 
-It is meant to run '''javac Scenario.java''' to compile Scenario.java, then run Scenario.java with the command line arguments 5 and 2
+It is meant to run the command 
+```javac Scenario.java``` 
+to compile Scenario.java, then run Scenario.java with the command line arguments 5 and 2
 if successfully compiled.
 
 My java program, Scenario.java, is meant to take in a number as a command line argument and run a method called multiplier with the 
@@ -26,7 +28,7 @@ be printed out.
 
 This is the code for Scenario.java:
 
-![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic2.JPG)
+![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2_1.JPG)
 
 However, when runner.sh tries to compile Scenario.java, it runs into this error:
 
