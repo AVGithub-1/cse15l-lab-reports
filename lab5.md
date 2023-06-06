@@ -66,7 +66,7 @@ Directory that contains runner.sh bash script and Scenario.java program: /c/User
 
 Contents of runner.sh file(it never gets changed):
 
-'''
+```
 javac Scenario.java
 
 if [ $? -eq 0 ]; then
@@ -78,11 +78,11 @@ if [ $? -eq 0 ]; then
 else
     echo "Compilation failed. Please check the Java source code and try again."
 fi
-'''
+```
 
 Contents of Scenario.java before fixing the bug:
 
-'''
+```
 
 import java.util.Arrays;
 
@@ -109,17 +109,17 @@ class Scenario{
     }
 
 }
-'''
+```
 
 command-line commands I ran to trigger the bug(in order): 
 
-'''
+```
 javac Scenario.java
-'''
+```
 
-'''
+```
 java Scenario.java 5 2
-'''
+```
 
 What to edit:
 in line 9 of Scenario.java, in the brackets of new int[factor], replace "factor" with "n".
