@@ -14,7 +14,7 @@ When I run my runner.sh script, which is supposed to compile and run my java pro
 
 This is my bash script, runner.sh:
 
-![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic1.jpg)
+![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2.JPG)
 
 It is meant to run '''javac Scenario.java''' to compile Scenario.java, then run Scenario.java with the command line arguments 5 and 2
 if successfully compiled.
