@@ -16,7 +16,7 @@ I then cloned my fork of the lab7 repository by typing this command: `git clone 
 
 ## Step 6:
 
-I typed `cd lab7 <enter>` to change my direcotry to the lab7 repository, then I ran the tests using `bash test.sh <enter>`, which ran the commands that compiles all the java files and runs the tests in ListExamplesTests. This showed that one test failed.
+I typed `cd lab7 <enter>` to change my directory to the lab7 repository, then I ran the tests using `bash test.sh <enter>`, which ran the commands that compiles all the java files and runs the tests in ListExamplesTests. This showed that one test failed.
 
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic4.JPG)
 
