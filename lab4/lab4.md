@@ -25,7 +25,7 @@ I typed `cd lab7 <enter>` to change my directory to the lab7 repository, then I 
 To start editing, I entered the file using `vim ListExamplesTests.java <enter>` and it showed this:
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic5.JPG)
 
-To edit, I pressed `<up> <up> <up> <h> <h> <h> <h>` to get my cursor right next to the 1 in index1, then `<i>` to enter insert mode. I then pressed `<backspace>` to delete the 1 and `<2>` to put a 2. Then I pressed `<Esc>` and `<:><w><q><Enter>` to save and exit the file. It looked like this at the end:
+To edit, I first typed in `/index1 <enter> <N>` to get to the last occurence of "index1" in the file, then `<l> <l> <l> <l> <l> <l>` to get my cursor directly to the right of the 1 in index1, then `<i>` to enter insert mode. I then pressed `<backspace>` to delete the 1 and `<2>` to put a 2. Then I pressed `<Esc>` and `<:><w><q><Enter>` to save and exit the file. It looked like this at the end:
   
 ![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/lab4/cs15l_lab4pic6.JPG)
  
