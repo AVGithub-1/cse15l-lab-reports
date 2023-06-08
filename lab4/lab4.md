@@ -1,6 +1,6 @@
 # Lab 4
 
-Note: all commands in <> are meant to be keypresses. For example, <enter> means press the Enter key.
+Note: all commands in <> are meant to be keypresses. For example, `<enter>` means press the Enter key.
 
 ## Step 4:
 
