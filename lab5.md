@@ -90,7 +90,7 @@ class Scenario{
     //returns an array of size n where each element is its index multiplied by 2 
     public static int[] multiplier(int n, int factor){
 
-        int[] returnArray = new int[n];
+        int[] returnArray = new int[factor];
         for(int i = 0; i < n; i++){
             returnArray[i] = factor*(i+1);
         }
