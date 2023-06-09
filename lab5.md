@@ -25,7 +25,7 @@ My java program, Scenario.java, is meant to take in a number as a command line a
 
 This is the code for Scenario.java:
 
-![Image](https://github.com/AVGithub-1/cse15l-lab-reports/blob/main/cs15l_lab5pic2_1.JPG?raw=true)
+![Image](https://raw.githubusercontent.com/AVGithub-1/cse15l-lab-reports/main/cs15l_lab5pic2_1.JPG))
 
 However, when runner.sh tries to compile Scenario.java, it runs into this error:
 
